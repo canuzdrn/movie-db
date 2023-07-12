@@ -25,11 +25,12 @@ User Interface is simple and easy to use, one can view all operations after logg
 
 ## Database Configuration
 Database Configuration:
-host = "127.0.0.1"
+host = "127.0.0.1"  // local
 user = "root"
 password = "admin123"
 db = "MovieDB"
 
+- If one wants to change the configuration info about the database, (s)he needs to change the source code since configuration information is hardcoded into the Python code
 - One make sure to establish MySQL connection and ensure that MySQL service is running
 - Besides the database connection, one need to create a schema called "MovieDB" and run following SQL files as queries. Below sql files ensure relevant tables and triggers are created (included in "sql" file)
 ```
