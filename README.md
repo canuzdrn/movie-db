@@ -25,7 +25,7 @@ User Interface is simple and easy to use, one can view all operations after logg
 
 ## Database Configuration
 Database Configuration:
-host = "127.0.0.1"  // local
+host = "127.0.0.1"
 user = "root"
 password = "admin123"
 db = "MovieDB"
